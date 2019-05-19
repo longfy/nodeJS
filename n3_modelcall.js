@@ -1,3 +1,6 @@
+/**
+ * 调用模块
+ */
 var http = require('http');
 var User = require('./models/user');
 var Teacher = require('./models/teacher');
