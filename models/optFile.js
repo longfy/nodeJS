@@ -10,6 +10,7 @@ module.exports = {
         recall(data.toString());
       } else {
         console.log(err)
+        recall(err.toString());
       }
     });
   },
@@ -20,7 +21,7 @@ module.exports = {
         response.end();
       } else {
         console.log(err);
-        return;
+        recall(err.toString());
       }
     });
   },

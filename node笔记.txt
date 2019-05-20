@@ -9,3 +9,8 @@ http.createServer(function(request, response){ //创建一个server服务，requ
 }).listen(8000); //监听80端口
 console.log('Server running at http://127.0.0.1:8000/');
 
+module.export = {} //导出模块
+
+var url = require('url'); // 导入 url
+var fs = require('fs'); // 导入 fs
+
